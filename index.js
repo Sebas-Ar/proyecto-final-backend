@@ -134,3 +134,5 @@ app.delete('/:id', async (req, res) => {
 app.listen(3000, () => {
     console.log('api escuchando en el puerto 3000')
 })
+
+export default app
